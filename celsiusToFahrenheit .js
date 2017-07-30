@@ -3,6 +3,6 @@
 
 //super basic celsius to fahrenheit converter in JS
 
-const celcius = prompt("Enter temp in celcius:");
+const celcius = Number(prompt("Enter temp in celcius:"))
 farheheit = celcius * 9/5 + 32;
 alert(`Farheheit = ${farheheit} `);
